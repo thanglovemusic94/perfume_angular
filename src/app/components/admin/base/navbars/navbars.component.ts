@@ -1,5 +1,5 @@
 import {AfterViewChecked, Component, ElementRef, OnInit, Renderer2, ViewChild} from '@angular/core';
-import {CollapseDirective} from 'ngx-bootstrap';
+import {CollapseDirective} from 'ngx-bootstrap/collapse';
 
 @Component({
   selector: 'app-navbars',
@@ -32,7 +32,7 @@ export class NavbarsComponent implements OnInit, AfterViewChecked {
 
   ngOnInit() {}
 
-  ngAfterViewChecked (): void {
+  ngAfterViewChecked(): void {
     this.collapseRef = this.collapse;
   }
 }

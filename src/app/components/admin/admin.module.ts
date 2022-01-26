@@ -17,11 +17,10 @@ import {
 } from 'ngx-perfect-scrollbar';
 import {TabsModule} from 'ngx-bootstrap/tabs';
 import {AdminLayoutComponent} from './admin-layout';
-import {
-    BsDropdownModule,
-    CollapseModule,
-    PaginationModule
-} from 'ngx-bootstrap';
+import {BsDropdownModule} from 'ngx-bootstrap/dropdown';
+import {CollapseModule} from 'ngx-bootstrap/collapse';
+import {PaginationModule} from 'ngx-bootstrap/pagination';
+
 import {ChartsModule} from 'ng2-charts';
 import {AdminRoutingModule} from './admin-routing.module';
 import {CategoryComponent} from './category/category.component';
